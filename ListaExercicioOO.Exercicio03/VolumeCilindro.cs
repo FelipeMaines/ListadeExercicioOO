@@ -14,7 +14,7 @@ namespace ListaExercicioOO.Exercicio03
 
         public double CalcularVolumeCilindro()
         {
-            volume = Math.Round((raio * raio) * Math.PI * altura);
+            volume = Math.Round(Math.Pow(raio, 2) * Math.PI * altura, 2);
             return volume;
         }
     }
